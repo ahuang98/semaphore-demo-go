@@ -27,3 +27,7 @@ blocks:
           commands:
             - echo $VAR_1
             - echo $APP_ENV
+      epilogue:
+        always:
+          commands:
+            - echo $VAR_1
